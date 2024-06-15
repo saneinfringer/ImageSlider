@@ -261,7 +261,7 @@ body {
   }
   .wrapper {
     align-self: start;
-    transform: translateY(10%);
+    transform: translateY(-10%);
   }
   .refresh {
     display: inline-block;
@@ -322,7 +322,7 @@ body {
   .wrapper {
     gap: 50px;
     align-self: start;
-    transform: translateY(10%);
+    transform: translateY(-10%);
   }
   .refresh {
     display: inline-block;
@@ -371,7 +371,7 @@ body {
   .wrapper {
     gap: 5vh;
     align-self: start;
-    transform: translateY(5%);
+    transform: translateY(-5%);
   }
   .slide-section {
     width: 70vw;
