@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image slider</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preload" as="script" href="script.js">
+</head>
+<body>
+    <div class="bg_img">
+        <img src="assets/image-1.jpg" alt="slider img" class="images">
+        <img src="assets/image-2.jpg" alt="slider img" class="images">
+        <img src="assets/image-3.jpg" alt="slider img" class="images">
+        <img src="assets/image-4.jpg" alt="slider img" class="images">
+        <img src="assets/image-5.jpg" alt="slider img" class="images">
+    </div> <!--background img end-->
+
+    <div class="wrapper">
+        <div class="refresh">refresh</div>
+        <div class="top">
+            <div class="slide-section">
+                <div class="slides" onmouseover="stopSlideshow()">
+                    <h2 class="tag-1 txt">ford, mustang gt</h2>
+                    <img src="assets/image-1.jpg" alt="slider img" class="image" height="500px" width="600px">
+                    <h2 class="tag-2 txt">bmw, m4 competition</h2>
+                    <img src="assets/image-2.jpg" alt="slider img" class="image" height="500px" width="600px">
+                    <h2 class="tag-3 txt">porshe, 911turbo rs</h2>
+                    <img src="assets/image-3.jpg" alt="slider img" class="image" height="500px" width="600px">
+                    <h2 class="tag-4 txt">lamborghini, aventadore</h2>
+                    <img src="assets/image-4.jpg" alt="slider img" class="image" height="500px" width="600px">
+                    <h2 class="tag-5 txt">dodge, challenger srt</h2>
+                    <img src="assets/image-5.jpg" alt="slider img" class="image" height="500px" width="600px">
+                </div> <!-- slide images end -->
+
+            </div> <!-- slide section end-->
+
+            <!-- icons -->
+            <i class="ri-arrow-left-line btn" id="left" onclick="slideleft()" onmouseover="stopSlideshow()"></i>
+            <i class="ri-arrow-right-line btn" id="right" onclick="slideright()" onmouseover="stopSlideshow()"></i>
+        </div> <!-- top end -->
+
+        <div class="bottom" onmouseover="stopSlideshow()">
+        </div>   <!--bottom dots end-->
+        
+        <div class="btn-autoplay">
+            autoplay OFF
+        </div> <!--autoplay end-->
+
+    </div> <!-- wrapper end-->
+    <script src="script.js"></script>
+</body>
+</html>
