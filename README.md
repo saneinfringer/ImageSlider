@@ -6,7 +6,7 @@ I created this Image Slider, after being offered an internship at Unified Mentor
 ## Acknowledgements
 
  - [google fonts](https://fonts.google.com/)
- - [Remix Icon](https://fontawesome.com/)
+ - [Font Awesome](https://fontawesome.com/)
 
 
 ## Appendix
